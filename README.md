@@ -53,7 +53,7 @@ Change the Cpu cores  as per your requiements<br>
 		board-id = "Mac-AA95B1DDAB278B95"
 
 3:- Run The Machine <br>
-4:- After Successful Installtion of Machine install the vm-tool for the MacOS Machine(Optional) <br>
+4:- After Successful Installation of Machine install the vm-tool for the MacOS Machine(Optional) <br>
 
 
 
