@@ -55,10 +55,11 @@ Change the Cpu cores  as per your requiements<br>
 		cpuid.1.eax = "0000:0000:0000:0001:0000:0110:0111:0001"
 		cpuid.1.ebx = "0000:0010:0000:0001:0000:1000:0000:0000"
 		cpuid.1.ecx = "1000:0010:1001:1000:0010:0010:0000:0011"
-		cpuid.1.edx = "0000:1111:1010:1011:1111:1011:1111:1111"
-		featureCompat.enable = "FALSE"
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-If you are facing the same error message after saving the changes, then change  **‘featureCompat.enable =’**  entry to  **“TRUE**.**”**  After that, remove the  **‘cpuid.ss’**  and  **‘wcpuid.ds’**  entries from the enabled features. Plus, change the value of  **‘cpuid.1.edx’**  line to  **‘**  **“0000:0111:1000:1011:1111:1011:1111:1111”**  .**’**
+		cpuid.1.edx = "0000:0111:1000:1011:1111:1011:1111:1111"
+		featureCompat.enable = "TRUE"
+		smbios.reflectHost = "TRUE"
+		hw.model = "iMac19,1"
+		board-id = "Mac-AA95B1DDAB278B95"
 
 3:- Run The Machine <br>
 4:- After Successful Installtion of Machine install the vm-tool for the MacOS Machine(Optional) <br>
